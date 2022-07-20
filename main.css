@@ -102,7 +102,6 @@ section.one, section.two{
 }
 section.one{
     border-bottom: 0.5px solid #E6E7E9;
-    margin-top: 11.7%;
     color: gray;
 }
 section.one p{
@@ -112,11 +111,16 @@ section.one p{
     display: flex;
 }
 #sec1 a, #sec2 a{
-    margin-left: 15px;
+    margin-left: 12px;
 }
 section a{
     text-decoration: none;
     color: gray;
+}
+footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 @media (min-width: 586px) and (max-width: 1000px){
     
@@ -139,7 +143,6 @@ section a{
     }
     section.one{
         font-size: 10px;
-        margin-top: 50px;
     }
     section.two{
         flex-direction: column;
@@ -171,13 +174,13 @@ section a{
         max-width: 100%;
         width: 80%;
         margin-left: 10%;
+        margin-top: 70px;
     }
     div.box{
         display: none;
     }
     section.one{
         font-size: 10px;
-        margin-top: 30%;
     }
     section.two{
         flex-direction: column;
@@ -192,10 +195,12 @@ section a{
     }
     div#langs{
         left: 0%;
-        font-size: 10px;
-        max-width: 100%;
+        margin-top: 100px;
+        justify-content: space-evenly;
+        font-size: 12px;
+        width: 100%;
         width: 400px;
-        margin-top: 10%;
+        box-sizing: border-box;
     }
     div#langs a{
         margin-left: 5px;
